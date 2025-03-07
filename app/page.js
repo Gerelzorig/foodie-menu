@@ -26,7 +26,7 @@ export default function Home() {
           <h2>How it works</h2>
           <p>
           <span className={classes.highlight}>NextLevel Food</span> is a platform for foodies to share their favorite
-            recipes with the world. It&apos;s a place to discover new dishes,
+            recipes with the world. Its a place to discover new dishes,
             and to connect with other food lovers.
           </p>
           <p>
@@ -39,7 +39,7 @@ export default function Home() {
           <h2>Why NextLevel Food?</h2>
         
           <p>
-          <span className={classes.highlight}>NextLevel Food</span> is your go-to platform for sharing and discovering culinary delights. Whether you're a seasoned chef or an enthusiastic home cook, NextLevel Food offers a vibrant community where you can showcase your favorite recipes and find inspiration from others. Connect with fellow food lovers, explore diverse cuisines, and elevate your cooking skills by discovering new dishes every day. Join us and become part of a passionate community that celebrates the joy of food.
+          <span className={classes.highlight}>NextLevel Food</span> is your go-to platform for sharing and discovering culinary delights. Whether youre a seasoned chef or an enthusiastic home cook, NextLevel Food offers a vibrant community where you can showcase your favorite recipes and find inspiration from others. Connect with fellow food lovers, explore diverse cuisines, and elevate your cooking skills by discovering new dishes every day. Join us and become part of a passionate community that celebrates the joy of food.
           </p>
         </section>
       </main>
