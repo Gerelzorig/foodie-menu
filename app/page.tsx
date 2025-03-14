@@ -35,7 +35,7 @@ export default function Home() {
 
   return (
     <div className="z-50 fixed h-screen w-screen min-h-screen min-w-screen flex flex-col md:flex-row">
-      <div className="relative animate-slide-top w-full md:w-1/2 h-1/2 md:h-full flex flex-col justify-center items-center p-8 md:p-32 bg-catering">
+      <div className="relative animate-slide-left w-full md:w-1/2 h-1/2 md:h-full md:flex hidden flex-col justify-center items-center p-8 md:p-32 bg-catering">
         <div className="relative w-full h-full">
           <Link href="/catering">
             <Image
@@ -48,7 +48,33 @@ export default function Home() {
           </Link>
         </div>
       </div>
-      <div className="relative animate-slide-bottom w-full md:w-1/2 h-1/2 md:h-full flex flex-col justify-center items-center p-8 md:p-32 bg-restaurant">
+      <div className="relative animate-slide-right w-full md:w-1/2 h-1/2 md:h-full md:flex hidden flex-col justify-center items-center p-8 md:p-32 bg-restaurant">
+        <div className="relative w-full h-full">
+          <Link href="/restaurant">
+            <Image
+              src="/logos/restaurant.svg"
+              layout="fill"
+              objectFit="contain"
+              blurDataURL="/logos/group.svg"
+              alt="logo"
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="relative animate-slide-top w-full md:w-1/2 h-1/2 md:h-full md:hidden flex flex-col justify-center items-center p-8 md:p-32 bg-catering">
+        <div className="relative w-full h-full">
+          <Link href="/catering">
+            <Image
+              src="/logos/catering.svg"
+              layout="fill"
+              objectFit="contain"
+              blurDataURL="/logos/group.svg"
+              alt="logo"
+            />
+          </Link>
+        </div>
+      </div>
+      <div className="relative animate-slide-bottom w-full md:w-1/2 h-1/2 md:h-full md:hidden flex flex-col justify-center items-center p-8 md:p-32 bg-restaurant">
         <div className="relative w-full h-full">
           <Link href="/restaurant">
             <Image

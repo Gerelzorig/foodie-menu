@@ -49,11 +49,11 @@ const Header: React.FC = () => {
         <div className="p-2 flex items-center h-full md:hidden">
           <Button
             type="text"
-            icon={<MenuOutlined />}
+            icon={<MenuOutlined className="text-white" />}
             onClick={() => setOpen(true)}
           />
           <Drawer
-            title="Gochu"
+            title="Prime Restaurant"
             className="bg-yellow-100"
             placement="left"
             onClose={() => setOpen(false)}
