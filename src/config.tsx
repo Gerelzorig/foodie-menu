@@ -1,7 +1,7 @@
 export const MenuRestaurant = [
   {
     id: "main_dish",
-    title: "Main dish",
+    title: "MAIN DISH",
     foods: [
       {
         name: "Khuushuur",
@@ -103,7 +103,7 @@ export const MenuRestaurant = [
   },
   {
     id: "burger_pizza",
-    title: "Burger & Pizza",
+    title: "BURGER & PIZZA",
     foods: [
       {
         name: "Prime burger",
