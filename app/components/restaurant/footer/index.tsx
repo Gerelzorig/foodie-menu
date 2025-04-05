@@ -29,7 +29,9 @@ const Footer: React.FC = () => {
               </div>
 
               <div className="text-sm">
-                ЧД 4-р хороо, Чингис хааны музейн баруун талд Prime restaurant
+                <a href="https://maps.app.goo.gl/bSuf45tqgX5ZLaiQ9">
+                  ЧД 4-р хороо, Чингис хааны музейн баруун талд Prime restaurant{" "}
+                </a>
               </div>
               <div className="text-sm">
                 <a href="tel:80565908">Утас: +976 8056-5908</a>

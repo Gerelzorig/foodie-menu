@@ -24,6 +24,14 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "AdleryPro";
+  src: url("/fonts/AdleryPro/AdleryPro.ttf") format("truetype"),
+    url("/fonts/AdleryPro/AdleryPro.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -38,6 +46,10 @@ body {
 
 .chatterbox {
   font-family: "Chatterbox", sans-serif;
+}
+
+.font-slogan {
+  font-family: "AdleryPro", sans-serif;
 }
 
 @layer utilities {

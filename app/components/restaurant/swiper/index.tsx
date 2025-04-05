@@ -27,15 +27,6 @@ const FoodSwiper = () => {
               </Link>
             </div>
           </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-full relative">
-              <img
-                className="w-full"
-                src="/swiper/2_desktop.png"
-                alt="swiper"
-              />
-            </div>
-          </SwiperSlide>
         </Swiper>
 
         <button className="custom-prev absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black/50 p-2 w-12 h-12 rounded-full z-30">
@@ -67,11 +58,6 @@ const FoodSwiper = () => {
                   alt="swiper"
                 />
               </Link>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-full relative">
-              <img className="w-full" src="/swiper/2_mobile.png" alt="swiper" />
             </div>
           </SwiperSlide>
           <button className="custom-prev absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black/50 p-2 w-12 h-12 rounded-full z-30">
