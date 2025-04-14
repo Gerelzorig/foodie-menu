@@ -42,7 +42,7 @@ const Footer: React.FC = () => {
                   И-мейл: admin@primegroup.mn
                 </a>
               </div>
-              <div>
+              {/* <div>
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.725992071224!2d106.91160207652699!3d47.92233907122054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d969324e74a927d%3A0xd6ced6df34012ee1!2sPrime%20Restaurant%20and%20Bar!5e0!3m2!1smn!2smn!4v1743855113264!5m2!1smn!2smn"
                   width="600"
@@ -53,7 +53,7 @@ const Footer: React.FC = () => {
                   style={{ border: 0 }}
                   referrerpolicy="no-referrer-when-downgrade"
                 ></iframe>
-              </div>
+              </div> */}
             </div>
             <div className="md:col-span-5 col-span-12 flex flex-col gap-3 text-left"></div>
             <div className="md:col-span-3 col-span-12 bg-stone-900 rounded-xl p-3">
