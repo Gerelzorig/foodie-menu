@@ -30,7 +30,8 @@ const Footer: React.FC = () => {
 
               <div className="text-sm">
                 <a href="https://maps.app.goo.gl/bSuf45tqgX5ZLaiQ9">
-                  ЧД 4-р хороо, Чингис хааны музейн баруун талд Prime restaurant{" "}
+                  Хаяг: ЧД 4-р хороо, Чингис хааны музейн баруун талд Prime
+                  restaurant{" "}
                 </a>
               </div>
               <div className="text-sm">
@@ -40,6 +41,18 @@ const Footer: React.FC = () => {
                 <a href="mailto:admin@primegroup.mn">
                   И-мейл: admin@primegroup.mn
                 </a>
+              </div>
+              <div>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2673.725992071224!2d106.91160207652699!3d47.92233907122054!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5d969324e74a927d%3A0xd6ced6df34012ee1!2sPrime%20Restaurant%20and%20Bar!5e0!3m2!1smn!2smn!4v1743855113264!5m2!1smn!2smn"
+                  width="600"
+                  height="450"
+                  loading="lazy"
+                  allowFullScreen
+                  className="w-full h-full relative rounded-lg"
+                  style={{ border: 0 }}
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
             <div className="md:col-span-5 col-span-12 flex flex-col gap-3 text-left"></div>

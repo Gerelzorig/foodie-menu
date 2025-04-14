@@ -13,9 +13,9 @@ export const metadata: Metadata = {
   title: "Prime catering & restaurant",
   description: "Prime catering & restaurant",
   icons: {
-    icon: "/favicon.ico", // Default favicon
-    apple: "/favicon.png", // For Apple devices
-    shortcut: "/favicon.ico",
+    icon: "/favicon-new.ico", // Default favicon
+    apple: "/favicon-new.png", // For Apple devices
+    shortcut: "/favicon-new.ico",
   },
 };
 
@@ -27,9 +27,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" type="image/png" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/favicon.png" />
+        <link rel="icon" href="/favicon-new.ico" sizes="any" />
+        <link rel="icon" type="image/png" href="/favicon-new.png" />
+        <link rel="apple-touch-icon" href="/favicon-new.png" />
       </Head>
       <body>
         <ThemeProvider>
