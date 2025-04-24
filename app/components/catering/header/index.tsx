@@ -11,36 +11,18 @@ import { MenuOutlined } from "@ant-design/icons";
 const menuItems = [
   {
     key: "menu",
-    path: "/menu",
+    path: "/catering/menu",
     label: (
-      <Link href="/menu" rel="noopener noreferrer">
+      <Link href="/catering/menu" rel="noopener noreferrer">
         Меню
       </Link>
     ),
   },
   {
-    key: "branch",
-    path: "/branch",
-    label: (
-      <Link href="/franchise" rel="noopener noreferrer">
-        Салбар
-      </Link>
-    ),
-  },
-  {
-    key: "franchise",
-    path: "/franchise",
-    label: (
-      <Link href="/franchise" rel="noopener noreferrer">
-        Францайз
-      </Link>
-    ),
-  },
-  {
     key: "about",
-    path: "/about",
+    path: "/catering/about",
     label: (
-      <Link href="/about" rel="noopener noreferrer">
+      <Link href="/catering/about" rel="noopener noreferrer">
         Бидний тухай
       </Link>
     ),
@@ -62,16 +44,16 @@ const Header: React.FC = () => {
   // );
 
   return (
-    <div className="z-50 fixed bg-primary dark:bg-stone-950 text-white shadow-xl top-0 h-20 w-full flex items-center justify-between p-2 font-bold text-sm lg:flex">
+    <div className="z-50 fixed bg-catering dark:bg-catering text-white shadow-xl top-0 h-32 w-full flex items-center justify-between p-2 px-8 font-bold text-sm lg:flex">
       <div className="flex items-center gap-x-4 h-full">
         <div className="p-2 flex items-center h-full md:hidden">
           <Button
             type="text"
-            icon={<MenuOutlined />}
+            icon={<MenuOutlined className="text-white" />}
             onClick={() => setOpen(true)}
           />
           <Drawer
-            title="Gochu"
+            title="Prime Catering"
             className="bg-yellow-100"
             placement="left"
             onClose={() => setOpen(false)}
@@ -88,9 +70,13 @@ const Header: React.FC = () => {
           <div className="relative h-full aspect-[16/9]">
             <Link href="/">
               <Image
-                src={theme === "dark" ? "/logos/group.svg" : "/logos/group.svg"}
+                src={
+                  theme === "dark"
+                    ? "/logos/catering.svg"
+                    : "/logos/catering.svg"
+                }
                 layout="fill"
-                blurDataURL="/logos/group.svg"
+                blurDataURL="/logos/catering.svg"
                 alt="logo"
               />
             </Link>
@@ -101,16 +87,10 @@ const Header: React.FC = () => {
       <div className="flex items-center justify-between gap-x-8 h-full">
         <div className="md:block hidden">
           <div className="flex items-center justify-between gap-x-8 h-full">
-            <Link className={`font-bold`} href="/menu">
+            <Link className={`font-bold`} href="/catering/menu">
               Меню
             </Link>
-            <Link className="font-bold" href="/branch">
-              Салбар
-            </Link>
-            <Link className="font-bold" href="/franchise">
-              Франчайз
-            </Link>
-            <Link className="font-bold" href="/about">
+            <Link className="font-bold" href="/catering/about">
               Бидний тухай
             </Link>
             {/* <Dropdown className="group" overlay={menu} trigger={["hover"]}>
@@ -121,18 +101,8 @@ const Header: React.FC = () => {
             </Dropdown> */}
           </div>
         </div>
-        <div className="flex items-center gap-x-8 h-full">
-          <div className="bg-secondary dark:bg-stone-600 border border-white p-2 rounded flex items-center justify-center md:w-40 w-20">
-            <a
-              className="font-bold"
-              target="_blank"
-              href="https://order.gochu.mn/"
-            >
-              Захиалга
-            </a>
-          </div>
-          <ThemeToggle />
-        </div>
+
+        {/* <ThemeToggle /> */}
       </div>
     </div>
   );

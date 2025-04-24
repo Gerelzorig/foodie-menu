@@ -18,20 +18,9 @@ const FoodSwiper = () => {
         >
           <SwiperSlide>
             <div className="w-full h-full relative">
-              <Link href="https://order.gochu.mn/">
-                <img
-                  className="w-full"
-                  src="/swiper/1_desktop.png"
-                  alt="swiper"
-                />
-              </Link>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-full relative">
               <img
                 className="w-full"
-                src="/swiper/2_desktop.png"
+                src="/swiper/1_catering_desktop.png"
                 alt="swiper"
               />
             </div>
@@ -60,18 +49,11 @@ const FoodSwiper = () => {
         >
           <SwiperSlide>
             <div className="w-full h-full relative">
-              <Link href="https://order.gochu.mn/">
-                <img
-                  className="w-full"
-                  src="/swiper/1_mobile.png"
-                  alt="swiper"
-                />
-              </Link>
-            </div>
-          </SwiperSlide>
-          <SwiperSlide>
-            <div className="w-full h-full relative">
-              <img className="w-full" src="/swiper/2_mobile.png" alt="swiper" />
+              <img
+                className="w-full"
+                src="/swiper/1_catering_mobile.png"
+                alt="swiper"
+              />
             </div>
           </SwiperSlide>
           <button className="custom-prev absolute left-4 top-1/2 -translate-y-1/2 text-white bg-black/50 p-2 w-12 h-12 rounded-full z-30">
