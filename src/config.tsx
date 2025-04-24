@@ -424,6 +424,12 @@ export const MenuRestaurant = [
         // path: "/set/s_set.png",
       },
       {
+        name: "Corona Sunrise",
+        price: "29'900₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
         name: "Tequila sunrise",
         price: "22'000₮",
         description: [""],
