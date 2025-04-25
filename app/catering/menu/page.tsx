@@ -73,6 +73,9 @@ const Menu = () => {
             Чанар, Сэтгэл, Дурсамж
           </div>
         </div>
+        <div className="text-right text-gray-100 mb-4">
+          *Уг үнийн дүнд НӨАТ-ийн үнэ багтаагүй болно.
+        </div>
         <div className="w-full aspect-[4/5] relative">
           <Image
             className="w-full"
