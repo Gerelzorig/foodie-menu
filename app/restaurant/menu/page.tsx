@@ -67,9 +67,9 @@ const Menu = () => {
       {/* Content Section */}
       <div className="sm:col-span-8 col-span-8">
         <div>
-          <div className="text-right text-gray-100 mb-4">
+          {/* <div className="text-right text-gray-100 mb-4">
             *Уг үнийн дүнд НӨАТ-ийн үнэ багтаагүй болно.
-          </div>
+          </div> */}
         </div>
         {menu.map((category, i) => (
           <div key={i} id={category.id} className="flex flex-col gap-4 mb-8">
