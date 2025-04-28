@@ -187,7 +187,7 @@ export const MenuRestaurant = [
   },
   {
     id: "slide_dish",
-    title: "SLIDE DISH",
+    title: "SIDE DISH",
     foods: [
       {
         name: "Fried rice",
