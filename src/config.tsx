@@ -4,6 +4,12 @@ export const MenuRestaurant = [
     title: "MAIN DISH",
     foods: [
       {
+        name: "Fish and chips",
+        price: "27'600₮",
+        description: ["Tilapia, French fries, Mayo sauce"],
+        path: "/main_dish/fish_and_chips_v1.png",
+      },
+      {
         name: "Khuushuur",
         price: "28'600₮",
         description: ["Beef, Vegetable, Salad"],
@@ -16,46 +22,16 @@ export const MenuRestaurant = [
         // path: "/main_dish/buuz_v1.png",
       },
       {
+        name: "Chicken for ladies",
+        price: "28'600₮",
+        description: ["Chicken, Vegetable"],
+        path: "/main_dish/chicken_for_ladies_v1.png",
+      },
+      {
         name: "Tsuiwan /өвчүүтэй/",
         price: "30'800₮",
         description: ["Beef, Vegetable"],
         // path: "/main_dish/tsuiwan_v1.png",
-      },
-      {
-        name: "Prime steak",
-        price: "53'900₮",
-        description: ["Beef tenderlion, Mush, Vegetables, Sauce"],
-        path: "/main_dish/prime_steak_v1.png",
-      },
-      {
-        name: "Primeat ribeye steak",
-        price: "75'900₮",
-        description: ["Mush, Salsa, Sauce"],
-        path: "/main_dish/primeat_ribeye_steak_v1.png",
-      },
-      {
-        name: "Primeat serlion steak",
-        price: "86'900₮",
-        description: ["Wedget potato, Carrot, Saice"],
-        path: "/main_dish/primeat_serlion_steak_v1.png",
-      },
-      {
-        name: "Steak pasta",
-        price: "37'300₮",
-        description: ["Tagliatelle, Beef tenderlion steak"],
-        path: "/main_dish/steak_pasta_v1.png",
-      },
-      {
-        name: "Sphagetti alla carbonara",
-        price: "31'900₮",
-        description: ["Parmesan cheese, sphagetti pasta, egg yolk"],
-        path: "/main_dish/sphagetti_alla_carbonara_v1.png",
-      },
-      {
-        name: "Pork short ribs",
-        price: "42'900₮",
-        description: ["BBQ sauce, Wedge potato, vegetables"],
-        path: "/main_dish/pork_short_ribs_v1.png",
       },
       {
         name: "Chicken bowl",
@@ -64,10 +40,22 @@ export const MenuRestaurant = [
         path: "/main_dish/chicken_bowl_v1.png",
       },
       {
+        name: "Sphagetti alla carbonara",
+        price: "31'900₮",
+        description: ["Parmesan cheese, sphagetti pasta, egg yolk"],
+        path: "/main_dish/sphagetti_alla_carbonara_v1.png",
+      },
+      {
         name: "Chicken fajitas",
         price: "34'100₮",
         description: ["Chicken thigh meat, Cream, Sauce"],
         path: "/main_dish/chicken_fajitas_v1.png",
+      },
+      {
+        name: "Steak pasta",
+        price: "37'300₮",
+        description: ["Tagliatelle, Beef tenderlion steak"],
+        path: "/main_dish/steak_pasta_v1.png",
       },
       {
         name: "Chicken marined",
@@ -82,22 +70,34 @@ export const MenuRestaurant = [
         path: "/main_dish/beef_ribs_v1.png",
       },
       {
+        name: "Pork short ribs",
+        price: "42'900₮",
+        description: ["BBQ sauce, Wedge potato, vegetables"],
+        path: "/main_dish/pork_short_ribs_v1.png",
+      },
+      {
+        name: "Prime steak",
+        price: "53'900₮",
+        description: ["Beef tenderlion, Mush, Vegetables, Sauce"],
+        path: "/main_dish/prime_steak_v1.png",
+      },
+      {
         name: "Salmon steak",
         price: "71'500₮",
         description: ["Creamy mushes, Asparagus"],
         path: "/main_dish/salmon_steak_v1.png",
       },
       {
-        name: "Fish and chips",
-        price: "27'600₮",
-        description: ["Tilapia, French fries, Mayo sauce"],
-        path: "/main_dish/fish_and_chips_v1.png",
+        name: "Primeat ribeye steak",
+        price: "75'900₮",
+        description: ["Mush, Salsa, Sauce"],
+        path: "/main_dish/primeat_ribeye_steak_v1.png",
       },
       {
-        name: "Chicken for ladies",
-        price: "28'600₮",
-        description: ["Chicken, Vegetable"],
-        path: "/main_dish/chicken_for_ladies_v1.png",
+        name: "Primeat serlion steak",
+        price: "86'900₮",
+        description: ["Wedget potato, Carrot, Saice"],
+        path: "/main_dish/primeat_serlion_steak_v1.png",
       },
     ],
   },
@@ -106,22 +106,16 @@ export const MenuRestaurant = [
     title: "BURGER & PIZZA",
     foods: [
       {
-        name: "Prime burger",
-        price: "37'400₮",
-        description: ["Beef meat, Cheese, Sauce"],
-        path: "/burger_and_pizza/prime_burger_v1.png",
-      },
-      {
         name: "BBQ burger",
         price: "31'900₮",
         description: ["Beef meat, Cheddar, Mozerella cheese, BBQ sauce"],
         path: "/burger_and_pizza/bbq_burger_v1.png",
       },
       {
-        name: "Margherita",
-        price: "40'700₮",
-        description: [""],
-        path: "/burger_and_pizza/margherita_v1.png",
+        name: "Prime burger",
+        price: "37'400₮",
+        description: ["Beef meat, Cheese, Sauce"],
+        path: "/burger_and_pizza/prime_burger_v1.png",
       },
       {
         name: "Hawai pizza",
@@ -129,6 +123,13 @@ export const MenuRestaurant = [
         description: [""],
         path: "/burger_and_pizza/hawai_v1.png",
       },
+      {
+        name: "Margherita",
+        price: "40'700₮",
+        description: [""],
+        path: "/burger_and_pizza/margherita_v1.png",
+      },
+
       {
         name: "The meat matrix",
         price: "42'900₮",
@@ -190,28 +191,22 @@ export const MenuRestaurant = [
     title: "SIDE DISH",
     foods: [
       {
-        name: "Fried rice",
-        price: "12'100₮",
-        description: [""],
-        path: "/slide_dish/fried_rice_v1.png",
-      },
-      {
         name: "Veggies",
         price: "11'000₮",
         description: [""],
         path: "/slide_dish/veggies_v1.png",
       },
       {
-        name: "Salsa with nachos",
-        price: "26'400₮",
+        name: "Fried rice",
+        price: "12'100₮",
         description: [""],
-        path: "/slide_dish/salsa_with_nachos_v1.png",
+        path: "/slide_dish/fried_rice_v1.png",
       },
       {
-        name: "French fries with salsa",
-        price: "17'600₮",
+        name: "Garlic bread",
+        price: "13'200₮",
         description: [""],
-        path: "/slide_dish/french_fries_with_salsa_v1.png",
+        path: "/slide_dish/garlic_bread_v1.png",
       },
       {
         name: "French fries",
@@ -220,10 +215,16 @@ export const MenuRestaurant = [
         path: "/slide_dish/french_fries_v1.png",
       },
       {
-        name: "Garlic bread",
-        price: "13'200₮",
+        name: "French fries with salsa",
+        price: "17'600₮",
         description: [""],
-        path: "/slide_dish/garlic_bread_v1.png",
+        path: "/slide_dish/french_fries_with_salsa_v1.png",
+      },
+      {
+        name: "Salsa with nachos",
+        price: "30'800₮",
+        description: [""],
+        path: "/slide_dish/salsa_with_nachos_v1.png",
       },
     ],
   },
@@ -274,20 +275,20 @@ export const MenuRestaurant = [
         path: "/dessert/red_velvet_v1.png",
       },
       {
-        name: "Carrot cake",
-        price: "29'700₮",
-        description: [""],
-        path: "/dessert/carrot_cake_v1.png",
-      },
-      {
         name: "Choc it to me",
         price: "28'600₮",
         description: [""],
         path: "/dessert/choc_it_to_me_v1.png",
       },
       {
+        name: "Carrot cake",
+        price: "29'700₮",
+        description: [""],
+        path: "/dessert/carrot_cake_v1.png",
+      },
+      {
         name: "Tiramisu",
-        price: "30'800₮",
+        price: "69'000₮",
         description: [""],
         path: "/dessert/tiramisu_v1.png",
       },
@@ -298,20 +299,8 @@ export const MenuRestaurant = [
     title: "TEA & COFFEE",
     foods: [
       {
-        name: "Pot tea",
-        price: "12'100₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
         name: "Tea",
         price: "2'750₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Ice tea",
-        price: "10'450₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -322,8 +311,14 @@ export const MenuRestaurant = [
         // path: "/set/s_set.png",
       },
       {
-        name: "Irish coffee",
-        price: "28'600₮",
+        name: "Ice americano",
+        price: "7'700₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Espresso",
+        price: "8'800₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -346,14 +341,20 @@ export const MenuRestaurant = [
         // path: "/set/s_set.png",
       },
       {
-        name: "Ice americano",
-        price: "7'700₮",
+        name: "Ice tea",
+        price: "10'450₮",
         description: [""],
         // path: "/set/s_set.png",
       },
       {
-        name: "Espresso",
-        price: "8'800₮",
+        name: "Pot tea",
+        price: "12'100₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Irish coffee",
+        price: "28'600₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -364,26 +365,26 @@ export const MenuRestaurant = [
     title: "SOFT DRINK",
     foods: [
       {
-        name: "Soft",
-        price: "7'150₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
         name: "Khujirt",
         price: "4'600₮",
         description: [""],
         // path: "/set/s_set.png",
       },
       {
-        name: "Red bull",
-        price: "8'800₮",
+        name: "Juice 250ml",
+        price: "5'500₮",
         description: [""],
         // path: "/set/s_set.png",
       },
       {
-        name: "Juice 250ml",
-        price: "5'500₮",
+        name: "Soft",
+        price: "7'150₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Red bull",
+        price: "8'800₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -400,6 +401,24 @@ export const MenuRestaurant = [
         // path: "/set/s_set.png",
       },
       {
+        name: "Jäger bomb",
+        price: "22'000₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Tequila sunrise",
+        price: "24'200₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Whisky sour",
+        price: "27'500₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
         name: "Negroni",
         price: "30'800₮",
         description: [""],
@@ -412,12 +431,6 @@ export const MenuRestaurant = [
         // path: "/set/s_set.png",
       },
       {
-        name: "Whisky sour",
-        price: "27'500₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
         name: "Long island",
         price: "30'800₮",
         description: [""],
@@ -426,18 +439,6 @@ export const MenuRestaurant = [
       {
         name: "Corona Sunrise",
         price: "31'900₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Tequila sunrise",
-        price: "24'200₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Jäger bomb",
-        price: "22'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -544,14 +545,14 @@ export const MenuRestaurant = [
         // path: "/set/s_set.png",
       },
       {
-        name: "LA baume cabernet",
-        price: "132'000₮",
+        name: "Calvet / Cinsault",
+        price: "82'500₮",
         description: [""],
         // path: "/set/s_set.png",
       },
       {
-        name: "Calvet / Cinsault",
-        price: "82'500₮",
+        name: "LA baume cabernet",
+        price: "132'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -561,12 +562,6 @@ export const MenuRestaurant = [
     id: "whiskey",
     title: "WHISKEY",
     foods: [
-      {
-        name: "Glenmorangie",
-        price: "396'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
       {
         name: "Jack Daniels",
         price: "16'500₮ / 275'000₮",
@@ -579,12 +574,7 @@ export const MenuRestaurant = [
         description: [""],
         // path: "/set/s_set.png",
       },
-      {
-        name: "Chivas",
-        price: "286'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
+
       {
         name: "Johnny Walker Red",
         price: "13'000₮ / 176'000₮",
@@ -597,6 +587,18 @@ export const MenuRestaurant = [
         description: [""],
         // path: "/set/s_set.png",
       },
+      {
+        name: "Chivas",
+        price: "286'000₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Glenmorangie",
+        price: "396'000₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
     ],
   },
   {
@@ -604,8 +606,8 @@ export const MenuRestaurant = [
     title: "COGNAC",
     foods: [
       {
-        name: "Martell",
-        price: "561'000₮",
+        name: "Hennessy V.S",
+        price: "27'500₮ / 418'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -616,8 +618,8 @@ export const MenuRestaurant = [
         // path: "/set/s_set.png",
       },
       {
-        name: "Hennessy V.S",
-        price: "27'500₮ / 418'000₮",
+        name: "Martell",
+        price: "561'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -627,6 +629,30 @@ export const MenuRestaurant = [
     id: "vodka",
     title: "VODKA",
     foods: [
+      {
+        name: "Eden",
+        price: "8'800₮ / 88'000₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Finlandia",
+        price: "13'200₮ / 176'000₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Absolute",
+        price: "13'200₮ / 176'000₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Evok",
+        price: "121'000₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
       {
         name: "Grey Goose",
         price: "352'000₮",
@@ -639,30 +665,6 @@ export const MenuRestaurant = [
         description: [""],
         // path: "/set/s_set.png",
       },
-      {
-        name: "Finlandia",
-        price: "13'200₮ / 176'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Evok",
-        price: "121'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Eden",
-        price: "8'800₮ / 88'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Absolute",
-        price: "13'200₮ / 176'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
     ],
   },
   {
@@ -670,14 +672,14 @@ export const MenuRestaurant = [
     title: "LIQUEUR",
     foods: [
       {
-        name: "Jägermeister",
-        price: "352'000₮",
+        name: "Balleys",
+        price: "11'000₮ / 165'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
       {
-        name: "Balleys",
-        price: "11'000₮ / 165'000₮",
+        name: "Jägermeister",
+        price: "352'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
