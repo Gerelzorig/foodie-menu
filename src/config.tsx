@@ -10,6 +10,12 @@ export const MenuRestaurant = [
         path: "/main_dish/fish_and_chips_v1.png",
       },
       {
+        name: "Chicken for ladies",
+        price: "28'600₮",
+        description: ["Chicken, Vegetable"],
+        path: "/main_dish/chicken_for_ladies_v1.png",
+      },
+      {
         name: "Khuushuur",
         price: "28'600₮",
         description: ["Beef, Vegetable, Salad"],
@@ -20,12 +26,6 @@ export const MenuRestaurant = [
         price: "28'600₮",
         description: ["Lamb, Vegetable, Salad"],
         // path: "/main_dish/buuz_v1.png",
-      },
-      {
-        name: "Chicken for ladies",
-        price: "28'600₮",
-        description: ["Chicken, Vegetable"],
-        path: "/main_dish/chicken_for_ladies_v1.png",
       },
       {
         name: "Tsuiwan /өвчүүтэй/",
@@ -698,7 +698,6 @@ export const MenuRestaurant = [
       {
         name: "Sierra (Gold)",
         price: "15'400₮ / 165'000₮",
-        description: [""],
         // path: "/set/s_set.png",
       },
     ],
