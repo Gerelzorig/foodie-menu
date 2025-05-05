@@ -698,6 +698,7 @@ export const MenuRestaurant = [
       {
         name: "Sierra (Gold)",
         price: "15'400₮ / 165'000₮",
+        description: [""],
         // path: "/set/s_set.png",
       },
     ],

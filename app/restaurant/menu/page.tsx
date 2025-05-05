@@ -1,7 +1,5 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { Image } from "antd";
-import { Tooltip } from "antd";
 import { MenuRestaurant as menu } from "@/src/config";
 
 const Menu = () => {
