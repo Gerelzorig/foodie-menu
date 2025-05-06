@@ -449,6 +449,12 @@ export const MenuRestaurant = [
     title: "BEER",
     foods: [
       {
+        name: "Sengur",
+        price: "9'900₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
         name: "Tsingtao",
         price: "11'000₮",
         description: [""],
@@ -457,24 +463,6 @@ export const MenuRestaurant = [
       {
         name: "Cass",
         price: "11'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Kaltenberg",
-        price: "13'200₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "GEM draft",
-        price: "12'100₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Corona",
-        price: "13'200₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -490,6 +478,25 @@ export const MenuRestaurant = [
         description: [""],
         // path: "/set/s_set.png",
       },
+      {
+        name: "GEM draft",
+        price: "12'100₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Kaltenberg",
+        price: "13'200₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Corona",
+        price: "13'200₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+
       {
         name: "Asahi",
         price: "15'400₮",
