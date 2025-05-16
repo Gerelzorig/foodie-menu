@@ -494,7 +494,7 @@ export const MenuRestaurant = [
         name: "Corona",
         price: "14'000₮",
         description: [""],
-        // path: "/set/s_set.png",
+        // path: "/set/s_sng",
       },
 
       {
