@@ -64,11 +64,22 @@ const Menu = () => {
 
       {/* Content Section */}
       <div className="sm:col-span-8 col-span-8">
-        <div>
-          {/* <div className="text-right text-gray-100 mb-4">
-            *Уг үнийн дүнд НӨАТ-ийн үнэ багтаагүй болно.
-          </div> */}
+        <div className="grid grid-cols-2 gap-4 mb-8">
+          <div
+            style={{
+              backgroundImage: `url("/main_dish/naadmiin_huushuur.png")`,
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+            }}
+            className="w-full sm:h-80 h-64 relative overflow-hidden mt-4"
+          ></div>
+          <div className="flex flex-col justify-center items-start">
+            <div className="text-4xl font-bold mb-4">JUNE SPECIAL</div>
+            <div className="text-2xl mb-4">Наадмын хуушуур</div>
+            <div className="text-lg font-bold text-gray-300">28'000₮</div>
+          </div>
         </div>
+
         {menu.map((category, i) => (
           <div key={i} id={category.id} className="flex flex-col gap-4 mb-8">
             <div className="font-bold text-4xl">{category.title}</div>

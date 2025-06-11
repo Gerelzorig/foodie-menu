@@ -19,19 +19,19 @@ export const MenuRestaurant = [
         name: "Khuushuur",
         price: "28'600₮",
         description: ["Beef, Vegetable, Salad"],
-        // path: "/main_dish/khuushuur_v1.png",
+        path: "/main_dish/huushuur.png",
       },
       {
         name: "Buuz",
         price: "28'600₮",
         description: ["Lamb, Vegetable, Salad"],
-        // path: "/main_dish/buuz_v1.png",
+        path: "/main_dish/buuz.png",
       },
       {
         name: "Tsuiwan /өвчүүтэй/",
         price: "30'800₮",
         description: ["Beef, Vegetable"],
-        // path: "/main_dish/tsuiwan_v1.png",
+        path: "/main_dish/tsuiwan.png",
       },
       {
         name: "Chicken bowl",
