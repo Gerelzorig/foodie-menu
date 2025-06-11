@@ -76,7 +76,7 @@ const Menu = () => {
           <div className="flex flex-col justify-center items-start">
             <div className="text-4xl font-bold mb-4">JUNE SPECIAL</div>
             <div className="text-2xl mb-4">Наадмын хуушуур</div>
-            <div className="text-lg font-bold text-gray-300">28'000₮</div>
+            <div className="text-lg font-bold text-gray-300">28000₮</div>
           </div>
         </div>
 
