@@ -437,6 +437,12 @@ export const MenuRestaurant = [
         // path: "/set/s_set.png",
       },
       {
+        name: "Blue Squirt",
+        price: "30'800₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
         name: "Corona Sunrise",
         price: "31'900₮",
         description: [""],
@@ -451,18 +457,6 @@ export const MenuRestaurant = [
       {
         name: "Sengur",
         price: "9'900₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Tsingtao",
-        price: "13'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
-      {
-        name: "Cass",
-        price: "13'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -496,7 +490,6 @@ export const MenuRestaurant = [
         description: [""],
         // path: "/set/s_sng",
       },
-
       {
         name: "Asahi",
         price: "15'000₮",
