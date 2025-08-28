@@ -643,7 +643,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Absolute",
-        price: "13'200₮ / 176'000₮",
+        price: "14'000₮ / 198'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
