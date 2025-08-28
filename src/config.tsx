@@ -460,24 +460,24 @@ export const MenuRestaurant = [
         description: [""],
         // path: "/set/s_set.png",
       },
-      {
-        name: "Kirin ichiban",
-        price: "13'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
+      // {
+      //   name: "Kirin ichiban",
+      //   price: "13'000₮",
+      //   description: [""],
+      //   // path: "/set/s_set.png",
+      // },
       {
         name: "Heineken",
         price: "13'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
-      {
-        name: "GEM draft",
-        price: "12'000₮",
-        description: [""],
-        // path: "/set/s_set.png",
-      },
+      // {
+      //   name: "GEM draft",
+      //   price: "12'000₮",
+      //   description: [""],
+      //   // path: "/set/s_set.png",
+      // },
       {
         name: "Kaltenberg",
         price: "14'000₮",
@@ -486,7 +486,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Corona",
-        price: "14'000₮",
+        price: "15'000₮",
         description: [""],
         // path: "/set/s_sng",
       },
