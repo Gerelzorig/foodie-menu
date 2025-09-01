@@ -132,13 +132,13 @@ export const MenuRestaurant = [
       {
         name: "Soju set",
         price: "120'000₮",
-        description: ["2 soju, 5 beer"],
+        description: ["2 soju, 5 beer + french fries"],
         path: "/for_web/soju_s.png",
       },
       {
         name: "Soju set XL",
         price: "240'000₮",
-        description: ["5 soju, 10 beer"],
+        description: ["5 soju, 10 beer + french fries"],
         path: "/for_web/soju_xl.png",
       },
     ],
