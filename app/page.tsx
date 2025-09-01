@@ -52,7 +52,7 @@ export default function Home() {
         <div className="relative w-full h-full">
           <Link href="/restaurant">
             <Image
-              src="/logos/restaurant.svg"
+              src="/logos/foodbar.svg"
               layout="fill"
               objectFit="contain"
               blurDataURL="/logos/group.svg"
@@ -78,7 +78,7 @@ export default function Home() {
         <div className="relative w-full h-full">
           <Link href="/restaurant">
             <Image
-              src="/logos/restaurant.svg"
+              src="/logos/foodbar.svg"
               layout="fill"
               objectFit="contain"
               blurDataURL="/logos/group.svg"

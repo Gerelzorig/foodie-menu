@@ -59,9 +59,9 @@ const Footer: React.FC = () => {
             <div className="md:col-span-3 col-span-12 bg-stone-900 rounded-xl p-3">
               <div className="relative aspect-square">
                 <Image
-                  src="/logos/restaurant.svg"
+                  src="/logos/foodbar.svg"
                   alt="logo"
-                  blurDataURL="/logos/restaurant.svg"
+                  blurDataURL="/logos/foodbar.svg"
                   placeholder="blur"
                   layout="fill"
                   className="transition"

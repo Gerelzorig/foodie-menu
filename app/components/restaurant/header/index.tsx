@@ -71,12 +71,10 @@ const Header: React.FC = () => {
             <Link href="/">
               <Image
                 src={
-                  theme === "dark"
-                    ? "/logos/restaurant.svg"
-                    : "/logos/restaurant.svg"
+                  theme === "dark" ? "/logos/foodbar.svg" : "/logos/foodbar.svg"
                 }
                 layout="fill"
-                blurDataURL="/logos/restaurant.svg"
+                blurDataURL="/logos/foodbar.svg"
                 alt="logo"
               />
             </Link>
