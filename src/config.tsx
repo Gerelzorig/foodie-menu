@@ -5,31 +5,31 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Simple burger",
-        price: "27'600₮",
+        price: "21'000₮",
         description: ["Tilapia, French fries, Mayo sauce"],
         path: "/burger/simple_burger_v2.png",
       },
       {
-        name: "Double burger",
-        price: "28'600₮",
+        name: "Twin tower burger",
+        price: "24'500₮",
         description: ["Chicken, Vegetable"],
         path: "/burger/new_double_burger_v1.png",
       },
       {
         name: "Smash burger",
-        price: "28'600₮",
+        price: "25'500₮",
         description: ["Beef, Vegetable, Salad"],
         path: "/burger/smash_burger_v3.png",
       },
       {
         name: "Mushroom burger",
-        price: "28'600₮",
+        price: "25'500₮",
         description: ["Lamb, Vegetable, Salad"],
         path: "/burger/mushroom_burger_v5.png",
       },
       {
         name: "Chicken burger",
-        price: "30'800₮",
+        price: "21'000₮",
         description: ["Beef, Vegetable"],
         path: "/burger/chicken_burger_v2.png",
       },
@@ -41,25 +41,25 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Pepperoni",
-        price: "31'900₮",
+        price: "41'000₮",
         description: ["Beef meat, Cheddar, Mozerella cheese, BBQ sauce"],
         path: "/pizza/pepperoni_v1.png",
       },
       {
         name: "Meat matrix",
-        price: "37'400₮",
+        price: "42'900₮",
         description: ["Beef meat, Cheese, Sauce"],
         path: "/pizza/mahand_durlagsad_v1.png",
       },
       {
         name: "Margherita",
-        price: "40'700₮",
+        price: "39'000₮",
         description: [""],
         path: "/pizza/margherita_v1.png",
       },
       {
         name: "Vegetable",
-        price: "42'900₮",
+        price: "41'000₮",
         description: [""],
         path: "/pizza/vegetable_v1.png",
       },
@@ -71,15 +71,33 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Meat ball bolognese pasta",
-        price: "137'500₮",
+        price: "33'000₮",
         description: [""],
         path: "/for_web/meat_ball_bolognese_pasta_v2.png",
       },
       {
         name: "Steak pasta",
-        price: "110'000₮",
+        price: "36'000₮",
         description: [""],
         path: "/for_web/steak_pasta_v2.png",
+      },
+    ],
+  },
+  {
+    id: "chicken",
+    title: "CHICKEN",
+    foods: [
+      {
+        name: "Simple chicken",
+        price: "21'000₮",
+        description: [""],
+        path: "/chicken/simple_chicken_v2.png",
+      },
+      {
+        name: "Sweet spicy chicken",
+        price: "23'000₮",
+        description: [""],
+        path: "/chicken/sweet_spicy_chicken_v1.png",
       },
     ],
   },
