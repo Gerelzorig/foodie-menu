@@ -66,6 +66,24 @@ export const MenuRestaurant = [
     ],
   },
   {
+    id: "chicken",
+    title: "CHICKEN",
+    foods: [
+      {
+        name: "Simple chicken",
+        price: "21'000₮",
+        description: [""],
+        path: "/chicken/simple_chicken_v2.png",
+      },
+      {
+        name: "Sweet spicy chicken",
+        price: "23'000₮",
+        description: [""],
+        path: "/chicken/sweet_spicy_chicken_v1.png",
+      },
+    ],
+  },
+  {
     id: "main_dish",
     title: "MAIN DISH",
     foods: [
@@ -81,23 +99,47 @@ export const MenuRestaurant = [
         description: [""],
         path: "/for_web/steak_pasta_v2.png",
       },
+      {
+        name: "Beef tenderlion steak",
+        price: "54'000₮",
+        description: [""],
+        path: "/for_web/steak.png",
+      },
+      {
+        name: "Ribeye steak",
+        price: "80'000₮",
+        description: [""],
+        path: "/for_web/steak1.png",
+      },
     ],
   },
   {
-    id: "chicken",
-    title: "CHICKEN",
+    id: "share_food",
+    title: "SHARE FOOD",
     foods: [
       {
-        name: "Simple chicken",
-        price: "21'000₮",
+        name: "Beat me platter",
+        price: "140'000₮",
         description: [""],
-        path: "/chicken/simple_chicken_v2.png",
+        path: "/for_web/beat_me_platter_v1.png",
+      },
+    ],
+  },
+  {
+    id: "drink",
+    title: "SET DRINK",
+    foods: [
+      {
+        name: "Soju set",
+        price: "120'000₮",
+        description: ["2 soju, 5 beer"],
+        path: "/for_web/soju_s.png",
       },
       {
-        name: "Sweet spicy chicken",
-        price: "23'000₮",
-        description: [""],
-        path: "/chicken/sweet_spicy_chicken_v1.png",
+        name: "Soju set XL",
+        price: "240'000₮",
+        description: ["5 soju, 10 beer"],
+        path: "/for_web/soju_xl.png",
       },
     ],
   },
