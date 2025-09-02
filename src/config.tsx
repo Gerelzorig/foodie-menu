@@ -6,31 +6,41 @@ export const MenuRestaurant = [
       {
         name: "Simple burger",
         price: "21'000₮",
-        description: ["Beef, Tomatoes, Pickle"],
+        description: [
+          "Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
+        ],
         path: "/burger/simple_burger_v2.png",
       },
       {
         name: "Twin tower burger",
         price: "24'500₮",
-        description: ["Double Beef, Bacon, Tomatoes, Pickle Onigari Sauce"],
+        description: [
+          "Double Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
+        ],
         path: "/burger/new_double_burger_v1.png",
       },
       {
         name: "Smash burger",
         price: "25'500₮",
-        description: ["Smashed Beef, Tomatoes, Pickle"],
+        description: [
+          "Smashed Beef,  Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
+        ],
         path: "/burger/smash_burger_v3.png",
       },
       {
         name: "Mushroom burger",
         price: "25'500₮",
-        description: ["Beef, Tomatoes, Pickle"],
+        description: [
+          "Mushroom, Double Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
+        ],
         path: "/burger/mushroom_burger_v5.png",
       },
       {
         name: "Chicken burger",
         price: "21'000₮",
-        description: ["Chicken, Tomatoes, Pickle"],
+        description: [
+          "Chicken, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
+        ],
         path: "/burger/chicken_burger_v2.png",
       },
     ],
@@ -42,13 +52,13 @@ export const MenuRestaurant = [
       {
         name: "Pepperoni",
         price: "41'000₮",
-        description: ["Beef meat, Cheddar, Mozerella cheese, BBQ sauce"],
+        description: [],
         path: "/pizza/pepperoni_v1.png",
       },
       {
         name: "Meat matrix",
         price: "42'900₮",
-        description: ["Beef meat, Cheese, Sauce"],
+        description: [],
         path: "/pizza/mahand_durlagsad_v1.png",
       },
       {
@@ -90,25 +100,25 @@ export const MenuRestaurant = [
       {
         name: "Meat ball bolognese pasta",
         price: "33'000₮",
-        description: [""],
+        description: ["Meat ball, Sphagetti, Bolognese sauce"],
         path: "/for_web/meat_ball_bolognese_pasta_v2.png",
       },
       {
         name: "Steak pasta",
         price: "36'000₮",
-        description: [""],
+        description: ["Beef tenderlion, Fettuccine, Creamy mushroom sauce"],
         path: "/for_web/steak_pasta_v2.png",
       },
       {
         name: "Beef tenderlion steak",
         price: "54'000₮",
-        description: [""],
+        description: ["Beef tenderlion, Mashed potato, Vegetables"],
         path: "/for_web/steak.png",
       },
       {
         name: "Ribeye steak",
         price: "80'000₮",
-        description: [""],
+        description: ["Ribeye, French fries, Vegetables"],
         path: "/for_web/steak1.png",
       },
     ],
@@ -120,7 +130,9 @@ export const MenuRestaurant = [
       {
         name: "Beat me platter",
         price: "140'000₮",
-        description: [""],
+        description: [
+          "Beef & Chicken burger, 2 types of Chicken, Steak, Home wedges potato, Vegetables",
+        ],
         path: "/for_web/beat_me_platter_v1.png",
       },
     ],
@@ -138,7 +150,7 @@ export const MenuRestaurant = [
       {
         name: "Soju set XL",
         price: "240'000₮",
-        description: ["5 soju, 10 beer + french fries"],
+        description: ["5 soju, 10 beer + 2 french fries"],
         path: "/for_web/soju_xl.png",
       },
     ],
@@ -343,6 +355,18 @@ export const MenuRestaurant = [
         name: "Asahi",
         price: "15'000₮",
         description: ["330ml"],
+        // path: "/set/s_set.png",
+      },
+    ],
+  },
+  {
+    id: "soju",
+    title: "SOJU",
+    foods: [
+      {
+        name: "Jangsu soju",
+        price: "20'000₮",
+        description: ["500ml"],
         // path: "/set/s_set.png",
       },
     ],
