@@ -104,6 +104,12 @@ export const MenuRestaurant = [
         path: "/for_web/meat_ball_bolognese_pasta_v2.png",
       },
       {
+        name: "Carbonara",
+        price: "32'000₮",
+        description: ["Pork, Cheese, Egg"],
+        path: "/for_web/carbonara_v1.png",
+      },
+      {
         name: "Steak pasta",
         price: "36'000₮",
         description: ["Beef tenderlion, Fettuccine, Creamy mushroom sauce"],
