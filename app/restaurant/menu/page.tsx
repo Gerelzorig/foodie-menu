@@ -1,9 +1,15 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import { MenuRestaurant as menu } from "@/src/config";
+import { Button, Modal } from "antd";
 
 const Menu = () => {
   const [activeButton, setActiveButton] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const showModal = () => setIsModalOpen(true);
+  const handleOk = () => setIsModalOpen(false);
+  const handleCancel = () => setIsModalOpen(false);
 
   const handleClick = (id) => {
     setActiveButton(id);
@@ -61,6 +67,65 @@ const Menu = () => {
           </div>
         ))}
       </div>
+
+      <Button
+        type="primary"
+        className="bg-black dark:bg-black"
+        onClick={showModal}
+        style={{
+          position: "fixed",
+          top: 150,
+          right: 20,
+          zIndex: 1000,
+          backgroundColor: "#000",
+        }}
+      >
+        НЭМЭЛТ БҮТЭЭГДЭХҮҮН
+      </Button>
+
+      {/* Modal */}
+      <Modal
+        open={isModalOpen}
+        onOk={handleOk}
+        onCancel={handleCancel}
+        footer={null}
+        className="border border-white rounded-lg"
+        styles={{
+          content: { background: "#000" },
+          header: { background: "#000" },
+          body: { color: "#fff" },
+          footer: { background: "#000" },
+        }}
+      >
+        <p className="text-2xl mb-4">НЭМЭЛТ БҮТЭЭГДЭХҮҮН</p>
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
+          <div className="flex flex-col">
+            <div className="text-lg">Cheese</div>
+            <div className="text-sm">Бяслаг</div>
+          </div>
+          <div className="text-lg text-right">6000₮</div>
+          <div className="flex flex-col">
+            <div className="text-lg">Bacon</div>
+            <div className="text-sm">Бяслаг</div>
+          </div>
+          <div className="text-lg text-right">6000₮</div>
+          <div className="flex flex-col">
+            <div className="text-lg">Pickling cucumber</div>
+            <div className="text-sm">Дарсан өргөст хэмх</div>
+          </div>
+          <div className="text-lg text-right">3000₮</div>
+          <div className="flex flex-col">
+            <div className="text-lg">Tomato</div>
+            <div className="text-sm">Улаан лооль</div>
+          </div>
+          <div className="text-lg text-right">3000₮</div>
+          <div className="flex flex-col">
+            <div className="text-lg">Egg</div>
+            <div className="text-sm">Шарсан өндөг</div>
+          </div>
+          <div className="text-lg text-right">3000₮</div>
+        </div>
+      </Modal>
 
       {/* Content Section */}
       <div className="sm:col-span-8 col-span-8">
