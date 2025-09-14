@@ -161,6 +161,24 @@ export const MenuRestaurant = [
       },
     ],
   },
+  {
+    id: "dessert",
+    title: "DESSERT",
+    foods: [
+      {
+        name: "Tiramisu",
+        price: "15'500₮",
+        description: [""],
+      },
+      {
+        name: "Tiramisu Bowl",
+        price: "69'000₮",
+        description: [
+          "Захиалгаар bowl-оор хийж өгнө. Захиалснаас 48 цагийн дараа бэлэн болно.",
+        ],
+      },
+    ],
+  },
   // {
   //   id: "tea_coffee",
   //   title: "TEA & COFFEE",
