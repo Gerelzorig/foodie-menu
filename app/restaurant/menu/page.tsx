@@ -106,7 +106,7 @@ const Menu = () => {
           <div className="text-lg text-right">6000₮</div>
           <div className="flex flex-col">
             <div className="text-lg">Bacon</div>
-            <div className="text-sm">Бяслаг</div>
+            <div className="text-sm">Гахайн утсан мах</div>
           </div>
           <div className="text-lg text-right">6000₮</div>
           <div className="flex flex-col">
