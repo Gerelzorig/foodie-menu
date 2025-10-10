@@ -323,7 +323,7 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Sengur /draft/",
-        price: "9'900₮",
+        price: "11'000₮",
         description: ["500ml"],
         // path: "/set/s_set.png",
       },
