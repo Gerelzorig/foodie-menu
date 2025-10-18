@@ -35,7 +35,7 @@ const Footer: React.FC = () => {
                 </a>
               </div>
               <div className="text-sm">
-                <a href="tel:80565908">Утас: +976 8056-5908</a>
+                <a href="tel:80958583">Утас: +976 8095-8583</a>
               </div>
               <div className="text-sm">
                 <a href="mailto:admin@primegroup.mn">

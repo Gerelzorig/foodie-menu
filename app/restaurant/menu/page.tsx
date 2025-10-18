@@ -132,7 +132,7 @@ const Menu = () => {
         <div className="flex flex-col md:flex-row gap-4 mb-8">
           <div className="flex flex-col w-full justify-center items-start">
             <div className="text-4xl w-full text-center font-bold mb-4">
-              AUTUMN SPECIAL
+              SPECIAL
             </div>
           </div>
           <div
