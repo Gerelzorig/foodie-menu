@@ -10,8 +10,8 @@ import { ThemeProvider } from "@/app/context/ThemeContext";
 import GsapProvider from "./context/GsapContext";
 
 export const metadata: Metadata = {
-  title: "Prime catering & restaurant",
-  description: "Prime catering & restaurant",
+  title: "Prime catering & Food bar",
+  description: "Prime catering & Food bar",
   icons: {
     icon: "/favicon-new.ico", // Default favicon
     apple: "/favicon-new.png", // For Apple devices
