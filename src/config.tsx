@@ -144,6 +144,28 @@ export const MenuRestaurant = [
     ],
   },
   {
+    id: "share_food",
+    title: "SHARE FOOD",
+    foods: [
+      {
+        name: "French Fries",
+        price: "10'000₮",
+        description: [
+          "Beef & Chicken burger, 2 types of Chicken, Steak, Home wedges potato, Vegetables",
+        ],
+        // path: "/for_web/beat_me_platter_v1.png",
+      },
+      {
+        name: "Fried Rice",
+        price: "15'000₮",
+        description: [
+          "Beef & Chicken burger, 2 types of Chicken, Steak, Home wedges potato, Vegetables",
+        ],
+        // path: "/for_web/beat_me_platter_v1.png",
+      },
+    ],
+  },
+  {
     id: "drink",
     title: "SET DRINK",
     foods: [
@@ -166,8 +188,18 @@ export const MenuRestaurant = [
     title: "DESSERT",
     foods: [
       {
-        name: "Tiramisu",
+        name: "Tiramisu / slice /",
         price: "15'500₮",
+        description: [""],
+      },
+      {
+        name: "Tiramisu Oreo Bowl / mid /",
+        price: "30'000₮",
+        description: [""],
+      },
+      {
+        name: "Tiramisu Matcha Bowl",
+        price: "69'000₮",
         description: [""],
       },
       {
