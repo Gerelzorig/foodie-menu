@@ -144,8 +144,8 @@ export const MenuRestaurant = [
     ],
   },
   {
-    id: "share_food",
-    title: "SHARE FOOD",
+    id: "side_dish",
+    title: "SIDE DISH",
     foods: [
       {
         name: "French Fries",
