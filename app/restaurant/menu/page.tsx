@@ -57,11 +57,14 @@ const Menu = () => {
           <div
             key={i}
             onClick={() => handleClick(category.id)}
-            className={`${
-              activeButton === category.id
-                ? "bg-stone-600 dark:bg-stone-600"
-                : "bg-black dark:bg-black"
-            } cursor-pointer text-sm p-2 rounded-md`}
+            className={`cursor-pointer text-sm p-2 rounded-md transition-all duration-300
+            ${
+              category.id === "cocktails"
+                ? "bg-gradient-to-r from-pink-500 via-red-500 to-yellow-500 text-white shadow-md hover:scale-105"
+                : activeButton === category.id
+                ? "bg-stone-600 dark:bg-stone-600 text-white"
+                : "bg-black dark:bg-black text-stone-300 hover:bg-stone-700"
+            }`}
           >
             {category.title}
           </div>

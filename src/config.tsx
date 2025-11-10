@@ -184,36 +184,8 @@ export const MenuRestaurant = [
     ],
   },
   {
-    id: "dessert",
-    title: "DESSERT",
-    foods: [
-      {
-        name: "Tiramisu / slice /",
-        price: "15'500₮",
-        description: [""],
-      },
-      {
-        name: "Tiramisu Oreo Bowl / mid /",
-        price: "30'000₮",
-        description: [""],
-      },
-      {
-        name: "Tiramisu Matcha Bowl",
-        price: "69'000₮",
-        description: [""],
-      },
-      {
-        name: "Tiramisu Bowl",
-        price: "69'000₮",
-        description: [
-          "Захиалгаар bowl-оор хийж өгнө. Захиалснаас 48 цагийн дараа бэлэн болно.",
-        ],
-      },
-    ],
-  },
-  {
     id: "cocktails",
-    title: "TEA & COFFEE",
+    title: "COCKTAIL",
     foods: [
       {
         name: "Negroni",
@@ -304,6 +276,34 @@ export const MenuRestaurant = [
         price: "31'900₮",
         description: [""],
         path: "/cocktails/clover.png",
+      },
+    ],
+  },
+  {
+    id: "dessert",
+    title: "DESSERT",
+    foods: [
+      {
+        name: "Tiramisu / slice /",
+        price: "15'500₮",
+        description: [""],
+      },
+      {
+        name: "Tiramisu Oreo Bowl / mid /",
+        price: "30'000₮",
+        description: [""],
+      },
+      {
+        name: "Tiramisu Matcha Bowl",
+        price: "69'000₮",
+        description: [""],
+      },
+      {
+        name: "Tiramisu Bowl",
+        price: "69'000₮",
+        description: [
+          "Захиалгаар bowl-оор хийж өгнө. Захиалснаас 48 цагийн дараа бэлэн болно.",
+        ],
       },
     ],
   },
