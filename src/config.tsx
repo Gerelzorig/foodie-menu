@@ -242,7 +242,7 @@ export const MenuRestaurant = [
         path: "/cocktails/singapore.png",
       },
       {
-        name: "Whisky Sour",
+        name: "Whiskey Sour",
         price: "27'900₮",
         description: [""],
         path: "/cocktails/sour.png",
@@ -276,6 +276,48 @@ export const MenuRestaurant = [
         price: "31'900₮",
         description: [""],
         path: "/cocktails/clover.png",
+      },
+    ],
+  },
+  {
+    id: "shake",
+    title: "SHAKE",
+    foods: [
+      {
+        name: "Chocolate shake",
+        price: "14'900₮",
+        description: [""],
+        path: "/shake/choco.png",
+      },
+      {
+        name: "Banana shake",
+        price: "14'900₮",
+        description: [""],
+        path: "/shake/bana.png",
+      },
+      {
+        name: "Mango shake",
+        price: "14'900₮",
+        description: [""],
+        path: "/shake/mango.png",
+      },
+      {
+        name: "Oreo shake",
+        price: "14'900₮",
+        description: [""],
+        path: "/shake/oreo.png",
+      },
+      {
+        name: "Strawberry shake",
+        price: "14'900₮",
+        description: [""],
+        path: "/shake/straw.png",
+      },
+      {
+        name: "Black Currant shake",
+        price: "14'900₮",
+        description: [""],
+        path: "/shake/bc.png",
       },
     ],
   },
