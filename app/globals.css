@@ -8,6 +8,163 @@
   --background-end-rgb: 255, 255, 255;
 }
 
+/* Snowflakes */
+.snowflake {
+  position: fixed;
+  top: -10px;
+  color: white;
+  user-select: none;
+  pointer-events: none;
+  animation: fall linear infinite;
+  opacity: 0.9;
+  z-index: 9999;
+}
+
+@keyframes fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    transform: translateY(100vh) rotate(360deg);
+  }
+}
+
+@keyframes santaFlight {
+  0% {
+    transform: translateX(-150px) translateY(0) scale(1) rotate(-5deg);
+    opacity: 0;
+  }
+  10% {
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(50vw) translateY(-40px) scale(1.05) rotate(2deg);
+  }
+  100% {
+    transform: translateX(110vw) translateY(0) scale(1) rotate(-5deg);
+    opacity: 0;
+  }
+}
+
+.animate-santa-flight {
+  animation: santaFlight 12s linear infinite;
+}
+
+.light-bulb {
+  width: 14px;
+  height: 24px;
+  border-radius: 50% 50% 60% 60%;
+  background-color: var(--bulb-color);
+  box-shadow: 0 0 8px var(--bulb-color), 0 0 16px var(--bulb-color);
+  animation: bulbGlow 1.6s infinite alternate;
+}
+
+.christmas-lights .light-bulb:nth-child(1) {
+  --bulb-color: #ff4d4d;
+  animation-delay: 0s;
+}
+.christmas-lights .light-bulb:nth-child(2) {
+  --bulb-color: #ffd700;
+  animation-delay: 0.2s;
+}
+.christmas-lights .light-bulb:nth-child(3) {
+  --bulb-color: #4dff4d;
+  animation-delay: 0.4s;
+}
+.christmas-lights .light-bulb:nth-child(4) {
+  --bulb-color: #4db8ff;
+  animation-delay: 0.6s;
+}
+.christmas-lights .light-bulb:nth-child(5) {
+  --bulb-color: #ff4dff;
+  animation-delay: 0.8s;
+}
+.christmas-lights .light-bulb:nth-child(6) {
+  --bulb-color: #ff4d4d;
+  animation-delay: 1s;
+}
+.christmas-lights .light-bulb:nth-child(7) {
+  --bulb-color: #ffd700;
+  animation-delay: 1.2s;
+}
+.christmas-lights .light-bulb:nth-child(8) {
+  --bulb-color: #4dff4d;
+  animation-delay: 1.4s;
+}
+.christmas-lights .light-bulb:nth-child(9) {
+  --bulb-color: #4db8ff;
+  animation-delay: 1.6s;
+}
+.christmas-lights .light-bulb:nth-child(10) {
+  --bulb-color: #ff4dff;
+  animation-delay: 1.8s;
+}
+.christmas-lights .light-bulb:nth-child(11) {
+  --bulb-color: #ff4d4d;
+  animation-delay: 2s;
+}
+.christmas-lights .light-bulb:nth-child(12) {
+  --bulb-color: #ffd700;
+  animation-delay: 2.2s;
+}
+
+@keyframes bulbGlow {
+  0% {
+    opacity: 0.6;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.1);
+  }
+}
+
+.light-bulb {
+  width: 14px;
+  height: 24px;
+  border-radius: 50% 50% 60% 60%;
+  background-color: var(--bulb-color);
+  box-shadow: 0 0 8px var(--bulb-color), 0 0 16px var(--bulb-color);
+  animation: bulbGlow 1.6s infinite alternate;
+}
+
+/* Assign colors + delays */
+.christmas-lights-vertical .light-bulb:nth-child(6n + 1) {
+  --bulb-color: #ff4d4d;
+  animation-delay: 0s;
+}
+.christmas-lights-vertical .light-bulb:nth-child(6n + 2) {
+  --bulb-color: #ffd700;
+  animation-delay: 0.2s;
+}
+.christmas-lights-vertical .light-bulb:nth-child(6n + 3) {
+  --bulb-color: #4dff4d;
+  animation-delay: 0.4s;
+}
+.christmas-lights-vertical .light-bulb:nth-child(6n + 4) {
+  --bulb-color: #4db8ff;
+  animation-delay: 0.6s;
+}
+.christmas-lights-vertical .light-bulb:nth-child(6n + 5) {
+  --bulb-color: #ff4dff;
+  animation-delay: 0.8s;
+}
+.christmas-lights-vertical .light-bulb:nth-child(6n + 6) {
+  --bulb-color: #ffffff;
+  animation-delay: 1s;
+}
+
+@keyframes bulbGlow {
+  0% {
+    opacity: 0.7;
+    transform: scale(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+}
+
 @font-face {
   font-family: "Inter";
   src: url("/fonts/Inter/Inter-VariableFont_wght.ttf") format("truetype"),
