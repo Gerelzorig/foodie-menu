@@ -161,8 +161,6 @@ const Menu = () => {
           <div className="text-lg text-right">3000₮</div>
         </div>
       </Modal>
-
-      {/* Content Section */}
       <div className="sm:col-span-8 col-span-8">
         {/* <div className="flex flex-col md:flex-row gap-4 mb-8">
           <div className="flex flex-col w-full justify-center items-start">
@@ -181,7 +179,7 @@ const Menu = () => {
         </div> */}
 
         {menu.map((category, i) => (
-          <div key={i} id={category.id} className="flex flex-col gap-4 mb-8">
+          <div key={i} id={category.id} className="flex flex-col gap-4 my-8">
             <div className="font-bold text-4xl">{category.title}</div>
             <div className="grid gap-8 grid-cols-1 sm:grid-cols-2">
               {category.foods.map((food, i) => (
