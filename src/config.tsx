@@ -20,14 +20,6 @@ export const MenuRestaurant = [
         path: "/burger/new_double_burger_v1.png",
       },
       {
-        name: "Smash burger",
-        price: "25'500₮",
-        description: [
-          "Smashed Beef,  Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
-        ],
-        path: "/burger/smash_burger_v3.png",
-      },
-      {
         name: "Mushroom burger",
         price: "25'500₮",
         description: [

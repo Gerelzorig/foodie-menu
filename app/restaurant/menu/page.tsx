@@ -164,7 +164,7 @@ const Menu = () => {
 
       {/* Content Section */}
       <div className="sm:col-span-8 col-span-8">
-        <div className="flex flex-col md:flex-row gap-4 mb-8">
+        {/* <div className="flex flex-col md:flex-row gap-4 mb-8">
           <div className="flex flex-col w-full justify-center items-start">
             <div className="text-4xl w-full text-center font-bold mb-4">
               SPECIAL
@@ -178,7 +178,7 @@ const Menu = () => {
             }}
             className="w-full aspect-[4/5] relative overflow-hidden mt-4"
           ></div>
-        </div>
+        </div> */}
 
         {menu.map((category, i) => (
           <div key={i} id={category.id} className="flex flex-col gap-4 mb-8">
