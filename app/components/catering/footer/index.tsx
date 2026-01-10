@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import { Facebook, Instagram, Youtube } from "@/app/widgets/icons";
+// import { Facebook, Instagram, Youtube } from "@/app/widgets/icons";
 
 const Footer: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const Footer: React.FC = () => {
                   href="https://www.facebook.com/profile.php?id=61565159289936"
                 >
                   <div className="p-2 rounded-lg flex items-center justify-between hover:bg-stone-900 dark:hover:bg-stone-800">
-                    <Facebook className="w-8 h-8" />
+                    {/* <Facebook className="w-8 h-8" /> */}
                   </div>
                 </a>
                 <a
@@ -23,7 +23,7 @@ const Footer: React.FC = () => {
                   href="https://www.instagram.com/prime.catering/"
                 >
                   <div className="p-2 rounded-lg flex items-center justify-between hover:bg-stone-900 dark:hover:bg-stone-800">
-                    <Instagram className="w-8 h-8" />
+                    {/* <Instagram className="w-8 h-8" /> */}
                   </div>
                 </a>
               </div>

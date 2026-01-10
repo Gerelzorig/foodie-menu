@@ -1,3 +1,3 @@
-export { default as Instagram } from "/public/icons/ig.svg";
-export { default as Facebook } from "/public/icons/fb.svg";
-export { default as Youtube } from "/public/icons/youtube_r.svg";
+// export { default as Instagram } from "/src/icons/insta.svg";
+// export { default as Facebook } from "/src/icons/fb.svg";
+// export { default as Youtube } from "/src/icons/youtube_r.svg";
