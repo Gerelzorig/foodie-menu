@@ -52,39 +52,8 @@ const Menu = () => {
   return (
     <div className="pb-24 pt-4 text-white container mx-auto grid grid-cols-12 p-2 gap-4">
       {/* Sticky Sidebar */}
-      {[...Array(20)].map((_, i) => (
-        <div
-          key={i}
-          className="snowflake"
-          style={{
-            left: Math.random() * 100 + "vw",
-            fontSize: Math.random() * 10 + 10 + "px",
-            animationDuration: Math.random() * 5 + 5 + "s",
-            animationDelay: Math.random() * 5 + "s",
-          }}
-        >
-          ❄
-        </div>
-      ))}
-      <div className="pointer-events-none fixed top-24 left-0 w-full h-0 z-[9999] overflow-visible">
-        <img
-          src="/santa.svg"
-          alt="Flying Santa"
-          className="w-40 animate-santa-flight"
-        />
-      </div>
-      <div className="animate-slide-left sticky top-32 self-start flex flex-col sm:col-span-4 col-span-4">
-        <div className="relative flex justify-center mb-0">
-          <img src="/santa.gif" alt="Tree" className="w-24" />
-          <div className="pointer-events-none flex justify-between absolute bottom-[-16px] md:left-6 xl:left-28 left-0 w-full z-[9999] overflow-visible">
-            <img
-              src="/snow.webp"
-              alt="Flying Santa"
-              className="w-full md:w-4/5 xl:w-2/5"
-            />
-          </div>
-        </div>
 
+      <div className="animate-slide-left sticky top-32 self-start flex flex-col sm:col-span-4 col-span-4">
         {menu.map((category, i) => (
           <div
             key={i}
