@@ -83,6 +83,12 @@ export const MenuRestaurant = [
         description: [""],
         path: "/chicken/sweet_spicy_chicken_v1.png",
       },
+      {
+        name: "Honey garlic chicken",
+        price: "23'500₮",
+        description: [""],
+        path: "/chicken/honey_garlic.jpg",
+      },
     ],
   },
   {
