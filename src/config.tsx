@@ -4,6 +4,14 @@ export const MenuRestaurant = [
     title: "BURGER",
     foods: [
       {
+        name: "Cheese bomb",
+        price: "34'500₮",
+        description: [
+          "Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
+        ],
+        path: "/burger/cheesebomb.jpg",
+      },
+      {
         name: "Simple burger",
         price: "21'000₮",
         description: [
