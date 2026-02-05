@@ -332,6 +332,11 @@ export const MenuRestaurant = [
     title: "DESSERT",
     foods: [
       {
+        name: "Tiramisu / cup /",
+        price: "10'000₮",
+        description: [""],
+      },
+      {
         name: "Tiramisu / slice /",
         price: "15'500₮",
         description: [""],
@@ -656,7 +661,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Glenmorangie",
-        price: "396'000₮",
+        price: "450'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
@@ -716,13 +721,13 @@ export const MenuRestaurant = [
       },
       {
         name: "Grey Goose",
-        price: "352'000₮",
+        price: "36000₮ / 450'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
       {
         name: "Beluga",
-        price: "352'000₮",
+        price: "36000₮ / 450'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
