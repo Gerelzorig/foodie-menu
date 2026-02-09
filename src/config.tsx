@@ -510,7 +510,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Kaltenberg /draft/",
-        price: "15'000₮",
+        price: "12'000₮",
         description: ["500ml"],
         // path: "/set/s_set.png",
       },
