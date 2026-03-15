@@ -13,7 +13,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Simple burger",
-        price: "21'000₮",
+        price: "23'100₮",
         description: [
           "Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
         ],
@@ -21,7 +21,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Twin tower burger",
-        price: "24'500₮",
+        price: "26'950₮",
         description: [
           "Double Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
         ],
@@ -29,7 +29,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Mushroom burger",
-        price: "25'500₮",
+        price: "28'050₮",
         description: [
           "Mushroom, Double Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
         ],
@@ -37,7 +37,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Chicken burger",
-        price: "21'000₮",
+        price: "23'100₮",
         description: [
           "Chicken, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
         ],
@@ -51,25 +51,25 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Pepperoni",
-        price: "41'000₮",
+        price: "45'100₮",
         description: [],
         path: "/pizza/pepperoni_v1.png",
       },
       {
         name: "Meat matrix",
-        price: "42'900₮",
+        price: "47'190₮",
         description: [],
         path: "/pizza/mahand_durlagsad_v1.png",
       },
       {
         name: "Margherita",
-        price: "39'000₮",
+        price: "42'900₮",
         description: [""],
         path: "/pizza/margherita_v1.png",
       },
       {
         name: "Vegetable",
-        price: "41'000₮",
+        price: "45'100₮",
         description: [""],
         path: "/pizza/vegetable_v1.png",
       },
@@ -81,19 +81,19 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Simple chicken",
-        price: "21'000₮",
+        price: "23'100₮",
         description: [""],
         path: "/chicken/simple_chicken_v2.png",
       },
       {
         name: "Sweet spicy chicken",
-        price: "23'000₮",
+        price: "25'300₮",
         description: [""],
         path: "/chicken/sweet_spicy_chicken_v1.png",
       },
       {
         name: "Honey garlic chicken",
-        price: "23'500₮",
+        price: "25'850₮",
         description: [""],
         path: "/chicken/honey_garlic.jpg",
       },
@@ -105,31 +105,31 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Meat ball bolognese pasta",
-        price: "33'000₮",
+        price: "36'300₮",
         description: ["Meat ball, Sphagetti, Bolognese sauce"],
         path: "/for_web/meat_ball_bolognese_pasta_v2.png",
       },
       {
         name: "Carbonara",
-        price: "32'000₮",
+        price: "35'200₮",
         description: ["Pork, Cheese, Egg"],
         path: "/for_web/carbonara_v1.png",
       },
       {
         name: "Steak pasta",
-        price: "36'000₮",
+        price: "39'600₮",
         description: ["Beef tenderlion, Fettuccine, Creamy mushroom sauce"],
         path: "/for_web/steak_pasta_v2.png",
       },
       {
         name: "Beef tenderlion steak",
-        price: "54'000₮",
+        price: "59'400₮",
         description: ["Beef tenderlion, Mashed potato, Vegetables"],
         path: "/for_web/steak.png",
       },
       {
         name: "Ribeye steak",
-        price: "80'000₮",
+        price: "88'000₮",
         description: ["Ribeye, French fries, Vegetables"],
         path: "/for_web/steak1.png",
       },
@@ -141,7 +141,7 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Beat me platter",
-        price: "140'000₮",
+        price: "154'000₮",
         description: [
           "Beef & Chicken burger, 2 types of Chicken, Steak, Home wedges potato, Vegetables",
         ],
@@ -504,13 +504,13 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Sengur /draft/",
-        price: "11'000₮",
+        price: "13'000₮",
         description: ["500ml"],
         // path: "/set/s_set.png",
       },
       {
         name: "Kaltenberg /draft/",
-        price: "12'000₮",
+        price: "14'000₮",
         description: ["500ml"],
         // path: "/set/s_set.png",
       },
