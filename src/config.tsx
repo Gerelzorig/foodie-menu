@@ -4,12 +4,12 @@ export const MenuRestaurant = [
     title: "BURGER",
     foods: [
       {
-        name: "Cheese bomb",
-        price: "34'500₮",
+        name: "Chicken wrap",
+        price: "34'000₮",
         description: [
-          "Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
+          "Chicken, Bacon, Tortilla, Iceberg, Tomatoes, Cheddar Cheese, BBQ Sauce",
         ],
-        path: "/burger/cheesebomb.jpg",
+        path: "/burger/chicken_wrap.png",
       },
       {
         name: "Simple burger",
