@@ -504,13 +504,13 @@ export const MenuRestaurant = [
     foods: [
       {
         name: "Sengur /draft/",
-        price: "13'000₮",
+        price: "14'000₮",
         description: ["500ml"],
         // path: "/set/s_set.png",
       },
       {
         name: "Kaltenberg /draft/",
-        price: "14'000₮",
+        price: "15'000₮",
         description: ["500ml"],
         // path: "/set/s_set.png",
       },
