@@ -97,6 +97,12 @@ export const MenuRestaurant = [
         description: [""],
         path: "/chicken/honey_garlic.jpg",
       },
+      {
+        name: "Chicken & Fries",
+        price: "15'000₮",
+        description: [""],
+        path: "/chicken/chicken_fries.jpg",
+      },
     ],
   },
   {
@@ -370,6 +376,7 @@ export const MenuRestaurant = [
         description: [""],
         // path: "/set/s_set.png",
       },
+
       {
         name: "Prime coffee",
         price: "6'700₮",
@@ -391,6 +398,12 @@ export const MenuRestaurant = [
       {
         name: "Latte",
         price: "8'800₮",
+        description: [""],
+        // path: "/set/s_set.png",
+      },
+      {
+        name: "Ice tea",
+        price: "9'500₮",
         description: [""],
         // path: "/set/s_set.png",
       },
