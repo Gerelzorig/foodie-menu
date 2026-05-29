@@ -589,7 +589,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Gordons",
-        price: "13'750 / 165'000₮",
+        price: "13'750 / 196'000₮",
         description: [""],
         // path: "/set/s_set.png",
       },
