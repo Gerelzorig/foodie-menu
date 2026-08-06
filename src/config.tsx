@@ -13,7 +13,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Simple burger",
-        price: "23'100₮",
+        price: "25'100₮",
         description: [
           "Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
         ],
@@ -21,7 +21,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Twin tower burger",
-        price: "26'950₮",
+        price: "28'900₮",
         description: [
           "Double Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
         ],
@@ -29,7 +29,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Mushroom burger",
-        price: "28'050₮",
+        price: "30'050₮",
         description: [
           "Mushroom, Double Beef, Bacon, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
         ],
@@ -37,7 +37,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Chicken burger",
-        price: "23'100₮",
+        price: "25'100₮",
         description: [
           "Chicken, Tomatoes, Pickle, Cheese, Onigari Sauce, BBQ Sauce",
         ],
@@ -99,7 +99,7 @@ export const MenuRestaurant = [
       },
       {
         name: "Chicken & Fries",
-        price: "15'000₮",
+        price: "20'000₮",
         description: [""],
         path: "/chicken/chicken_fries.jpg",
       },
