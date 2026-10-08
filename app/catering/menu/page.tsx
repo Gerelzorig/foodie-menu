@@ -151,6 +151,14 @@ const Menu = () => {
         <div className="w-full aspect-[4/5] relative">
           <Image
             className="w-full"
+            src="/catering/10_1.png"
+            alt="swiper"
+            preview={false}
+          />
+        </div>
+        <div className="w-full aspect-[4/5] relative">
+          <Image
+            className="w-full"
             src="/catering/11.png"
             alt="swiper"
             preview={false}
@@ -176,14 +184,6 @@ const Menu = () => {
           <Image
             className="w-full"
             src="/catering/14.png"
-            alt="swiper"
-            preview={false}
-          />
-        </div>
-        <div className="w-full aspect-[4/5] relative">
-          <Image
-            className="w-full"
-            src="/catering/15.png"
             alt="swiper"
             preview={false}
           />
